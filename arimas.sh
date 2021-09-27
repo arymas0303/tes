@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo "===================================="
 echo "Halooo Sappokuuuuuuu By.AriMas"
 echo "===================================="
