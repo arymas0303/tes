@@ -13,8 +13,3 @@ sudo service xrdp start
 sudo apt-get install -y xfonts-100dpi xfonts-100dpi-transcoded xfonts-75dpi xfonts-75dpi-transcoded xfonts-base > /dev/null 2>&1
 sudo apt-get install -y tightvncserver
 tightvncserver :1
-sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
-unzip ngrok-stable-linux-amd64.zip
-read -p "Paste Token Di Sini (Copy Dan Paste Lalu Enter): " CRP
-./ngrok authtoken $CRP
-./ngrok tcp 3389
