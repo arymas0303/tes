@@ -10,4 +10,4 @@ export DEBIAN_FRONTEND=noninteractive
 sudo apt remove --assume-yes gnome-terminal
 sudo apt install --assume-yes xscreensaver
 sudo systemctl disable lightdm.service
-apt install --assume-yes xfce4 desktop-base xfce4-terminal
+sudo apt install --assume-yes xfce4 desktop-base xfce4-terminal
