@@ -1,3 +1,6 @@
+echo "===================================="
+echo "Script By.AriMas"
+echo "===================================="
 sudo wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
 sudo apt update
 sudo apt install --assume-yes \
